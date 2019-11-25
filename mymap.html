@@ -53,6 +53,10 @@ crossorigin=""></script>
 		
 	//Add legend
 	var legend = L.control.layers (basemaps, null, {collapsed: false, position:'bottomright'}). addTo(mymap);
+	
+	//Add scale
+	var scale = L.control.scale(100, metric=True) addTo(mymap);
+	
 	</script>
 
 </body>
